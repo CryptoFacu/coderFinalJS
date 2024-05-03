@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+  <div class="contenedor-principal">
+    <div class="seccion-productos">
+      <div class="bg-6">
+        <div class="glitch" data-text="TIENDA DE ROPA OVERSIZE">TIENDA DE ROPA OVERSIZE</div>
+      </div>
+      <h1 class="subtitulo">Productos Disponibles</h1>
+      <div class="contenedor-productos" id="contenedor-productos"></div>
+    </div>
+    <div id="carrito" class="carrito">
+      <h2>Carrito de Compras</h2>
+      <div id="elementos-carrito" class="elementos-carrito"></div>
+      <p>Total: <span id="precio-total">$ 0</span></p>
+      <button id="boton-vaciar-carrito">Vaciar Carrito</button>
+      
+      <button id="boton-confirmar-compra">Confirmar Compra</button>
+      <div id="mensaje-compra" class="mensaje-compra"></div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="main.js"></script>
+</body>
+</html>
