@@ -55,8 +55,8 @@ function mostrarProductos() {
     const divProducto = document.createElement('div');
     divProducto.className = 'item-producto';
     divProducto.innerHTML = `
-      <img src="assets/oversize${indice + 1}frente.webp" class="imagen-producto" />
-      <img src="assets/oversize${indice + 1}back.webp" class="imagen-atras-producto" />
+      <img src="oversize${indice + 1}frente.webp" class="imagen-producto" />
+      <img src="oversize${indice + 1}back.webp" class="imagen-atras-producto" />
       <div class="producto-contenido">
         <div class="precio-producto">$${producto.precio}</div>
         <div>
